@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcase.CreateLead">
+        <methods>
+          <include name="postcondition"/>
+          <include name="runCreatelead"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcase.CreateLead -->
+      <class name="testcase.DeleteLead">
+        <methods>
+          <include name="runDeletelead"/>
+          <include name="postcondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testcase.DeleteLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
